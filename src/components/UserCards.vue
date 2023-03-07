@@ -2,7 +2,7 @@
     <div class="card">
         <h2>Card</h2>
         <div class="main">
-            {{ name }} - {{ email }} - {{ number }} - {{ eventDate }}
+            {{ name }} - {{ email }} - {{ number }} - {{ event }}
         </div>
     </div>
 
@@ -21,9 +21,9 @@
             },
             number:{
                 type: Number,
-                default: "",
+                default: 0,
             },
-            eventDate:{
+            event:{
                 type: Date,
                 default: "",
             }

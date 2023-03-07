@@ -14,7 +14,7 @@
         :name="user.name"
         :email="user.email"
         :number="user.number"
-        :eventDate="user.eventDate"
+        :event="user.eventDate"
       />
     </div>
     
