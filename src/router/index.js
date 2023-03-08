@@ -11,14 +11,9 @@ const routes = [
     component: HomeView
   },
   {
-    path: '/todos',
-    name: 'todos',
-    component: () => import(/* webpackChunkName: "about" */ '../views/TodosView.vue')
-  },
-  {
-    path: '/user',
-    name: 'user',
-    component: () => import(/* webpackChunkName: "about" */ '../views/User.vue')
+    path: '/users',
+    name: 'users',
+    component: () => import(/* webpackChunkName: "about" */ '../views/UsersView.vue')
   }
 ]
 

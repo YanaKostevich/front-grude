@@ -7,8 +7,6 @@
       consequuntur, fugit, sequi molestias animi quos praesentium? Minima
       dolorum pariatur quae dolores.
     </p>
-    <router-link to="/todos">Todos</router-link>
-    <br />
-    <router-link to="/user">User</router-link>
+    <router-link to="/users">Users</router-link>
   </div>
 </template>
